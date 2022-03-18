@@ -59,9 +59,9 @@ function App() {
     <div className="row">
       
 
-    <Palette couleur='Couleur1' value={color} value1={breakpoint1} breackdown='Breakdown1' onChange={handleInput} onChange1={handleInputBreackpoint1} color={color}  />
-    <Palette couleur='Couleur2' breackdown='Breakdown2' onChange={handleInput2} color={color2} onChange1={handleInputBreackpoint2} value1={breakpoint2} />
-    <Palette couleur='Couleur3' breackdown='Breakdown3' onChange={handleInput3} color={color3} onChange1={handleInputBreackpoint3} value1={breakpoint3} />
+    <Palette couleur='Couleur1' value={color} value1={breakpoint1} breackdown='Breakpoint1' onChange={handleInput} onChange1={handleInputBreackpoint1} color={color}  />
+    <Palette couleur='Couleur2' breackdown='Breakpoint2' onChange={handleInput2} color={color2} onChange1={handleInputBreackpoint2} value1={breakpoint2} />
+    <Palette couleur='Couleur3' breackdown='Breakpoint3' onChange={handleInput3} color={color3} onChange1={handleInputBreackpoint3} value1={breakpoint3} />
     <Gradient rotation={rotation} onChange={handleInputRotation}/>
     </div>
     <div className="row">
